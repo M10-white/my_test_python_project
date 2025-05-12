@@ -20,6 +20,7 @@ Ce dépôt contient les travaux pratiques réalisés dans le cadre du cours de d
 │   ├── 1er_TestGitHubAction.png  # Capture d'écran CI/CD réussi
 │   └── 1er_Test_Error.png
 └── README.md                 # Ce fichier
+  ```
 
 ## TP1 - Tests unitaires
 
@@ -32,7 +33,6 @@ Ce dépôt contient les travaux pratiques réalisés dans le cadre du cours de d
   ```bash
   cd TP1
   pytest test_fonctions.py
-  ```
 
 ## TP2 - Pipeline CI/CD avec GitHub Actions
 
