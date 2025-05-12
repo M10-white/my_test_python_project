@@ -24,27 +24,28 @@ Ce dépôt contient les travaux pratiques réalisés dans le cadre du cours de d
 
 ## TP1 - Tests unitaires
 
-- **Dossier :** `TP1/`
-- **Objectif :** Implémenter et tester trois fonctions avec PyTest.
-- **Fichiers principaux :**
+**Dossier :** `TP1/`
+**Objectif :** Implémenter et tester trois fonctions avec PyTest.
+**Fichiers principaux :**
   - `fonctions.py`
   - `test_fonctions.py`
-- **Pour exécuter :**
+**Pour exécuter :**
   ```bash
   cd TP1
   pytest test_fonctions.py
+  ```
 
 ## TP2 - Pipeline CI/CD avec GitHub Actions
 
-- **Dossier :** `TP2/`
-- **Objectif :** Mettre en place un workflow CI/CD avec GitHub Actions pour exécuter les tests et le linter.
-- **Configuration CI :** `.github/workflows/python-ci.yml`
-- **Fichiers principaux :**
+**Dossier :** `TP2/`
+**Objectif :** Mettre en place un workflow CI/CD avec GitHub Actions pour exécuter les tests et le linter.
+**Configuration CI :** `.github/workflows/python-ci.yml`
+**Fichiers principaux :**
   - `main.py`
   - `test_main.py`
   - `requirements.txt`
   - `.flake8`
-- **Pour exécuter localement :**
+**Pour exécuter localement :**
   ```bash
   cd TP2
   pip install -r requirements.txt
@@ -54,8 +55,8 @@ Ce dépôt contient les travaux pratiques réalisés dans le cadre du cours de d
 
 ## CI/CD (GitHub Actions)
 
-- Chaque push/pull request déclenche un pipeline défini dans `.github/workflows/python-ci.yml`.
-- Le pipeline :
+Chaque push/pull request déclenche un pipeline défini dans `.github/workflows/python-ci.yml`.
+Le pipeline :
   1. Checkout du code
   2. Installation de Python et des dépendances
   3. Exécution des tests PyTest
